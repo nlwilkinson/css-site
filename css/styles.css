@@ -1,0 +1,160 @@
+body {
+    background-color: #d9e4dd;
+    margin: auto;
+    font-family: 'Montserrat', cursive;
+  }
+
+  hr {
+    
+    height: 0px;
+    width: 5%;
+    border-style: none;
+    border-top: dotted;
+    border-color: lightgrey;
+    border-width: 6px;
+  }
+
+  h1 {
+    color: cadetblue;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+
+ h3 {
+      color: #94b4a4;
+      font-family: 'Satisfy', cursive;
+      text-align: center;
+      margin-top: 30px;
+      
+  }
+
+  p {
+    text-align: center;
+   
+  }
+
+  ul {
+    text-align: center;
+    list-style-type: none;
+
+  }
+
+  .table {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      padding-right: 10%;
+  }
+
+  /* Profile section */
+
+  .bio {
+    padding: 0 15%;
+    line-height: 1.5;
+  }
+
+  /* Skills and interests section */
+
+  .container-flex {
+    display: flex;
+    justify-content: wrap;
+    flex-wrap: wrap;
+    
+  }
+
+  .skill span {
+    width: 300px;
+    flex: 0 32%;
+    margin-bottom: 2%;
+   
+
+  }
+
+  .skill .container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 33.3333%;
+  }
+
+  /* Footer */
+
+  .footer {
+    text-align: center;
+    background-color:darkcyan;
+    padding: 5%;
+    font-family: 'Montserrat', cursive;
+    font-size: 0.75rem;
+    bottom: 0;
+    height: 20px;   
+  }
+
+
+
+
+
+  /* Images */
+
+.profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+}
+
+.skill-img-size  {
+  padding: 0 30px 10px;
+  height: 200px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.contact-img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 200px;
+  width: 200px;
+}
+
+/* Contact page */
+
+.form {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: relative;
+  margin-bottom: 50px;
+}
+
+.contact-row {
+  margin: 10px;
+}
+
+.contact-me {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-bottom: 50px;
+  padding-top: 50px;;
+}
+
+.column {
+ display: flex;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+
+.social-img-size {
+  height: 60px;
+  width: 60px;
+}
+
+.row {
+  display: flex;
+}
